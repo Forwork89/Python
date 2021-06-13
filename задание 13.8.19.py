@@ -8,7 +8,7 @@ for visitor in range(tickets,):
     elif 18 <= age < 25:
         price += 990
     elif age > 25:
-        price = 1390
+        price += 1390
 if tickets > 3:
     price = price - (price * 0.1)
 print("Сумма к оплате", price)
